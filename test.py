@@ -1,0 +1,8 @@
+from minimum_edit_distance import minimum_edit_distance
+
+
+str_a = "asabsabshbadsafhsdbfkjdsfndskjfasjdkfanfnasfasabsabshbadsafhsdbfssas13adkjdsfndskjfasjdkfanfnasfasabsabshbadsafhsdbfkjdsfndskjfasjdkfanfnasf"
+str_b = "asabsabshbadsafhsdbfkjdsfndskjfasjdkfanfnahhssfmmdnsasabsabshbadsafhsdbfkjdsfndskjfasjdkfanfnahhssfmqqopasabsabshbadsafhsdbfkjdsfndskjfasjdkfanfnahhssf"
+out = minimum_edit_distance(str_a, str_b)
+
+print(out)
